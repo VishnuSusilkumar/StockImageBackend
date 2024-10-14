@@ -29,7 +29,7 @@ app.use(cookieParser());
 app.use('/api/auth', router);
 app.use('/api/image', imageRouter);
 
-const port = process.env.PORT || 10000;
+const port = process.env.PORT || 8080;
 
 app.listen(port, () => {
     console.log(`Server running on PORT: ${port}`);
